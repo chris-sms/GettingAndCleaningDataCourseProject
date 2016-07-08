@@ -62,3 +62,6 @@ SummaryTable<-CombinedSubset[,c(-1)] %>% group_by(Subject,Activity) %>% summariz
 for (i in 3:ncol(SummaryTable)) {
     colnames(SummaryTable)[i]<-paste("Average Of",colnames(SummaryTable)[i])
 }
+
+#### Export
+write.table(SummaryTable,file="./Getting and Cleaning Data Course Project/SummaryTable.txt",row.name=FALSE)
