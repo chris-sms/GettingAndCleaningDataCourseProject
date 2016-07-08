@@ -149,3 +149,4 @@ for (i in 3:ncol(SummaryTable)) {
 
 #### Export
 write.table(SummaryTable,file="./Getting and Cleaning Data Course Project/SummaryTable.txt",row.name=FALSE)
+
