@@ -14,6 +14,7 @@
 # 4. Appropriately label the data set with descriptive variable names
 # 5. From the data set above, create a second, independent tidy data set with the average
 #    of each variable for each activity and each subject
+# 6. Export the summary data set from step 5 to a text file
 
 #### Load Data
 # Load label data
