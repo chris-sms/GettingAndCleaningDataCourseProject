@@ -15,6 +15,7 @@ Summary of Processing Steps:
 4. Appropriately label the data set with descriptive variable names
 5. From the data set above, create a second, independent tidy data set with the average
    of each variable for each activity and each subject
+6. Export the summary data set from step 5 to a text file
 
 Raw Data Set Information (from the UCI Human Activity Recognition Using Smartphones site):
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
